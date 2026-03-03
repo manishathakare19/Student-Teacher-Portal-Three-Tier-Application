@@ -37,4 +37,4 @@ jobs:
           push: true
           tags: 349302393548.dkr.ecr.ap-south-1.amazonaws.com/dev/frontend:${{ github.run_number }}
           build-args: |
-            REACT_APP_API_BASE_URL=ecs-alb-backend-275173380.ap-south-1.elb.amazonaws.com 
+            REACT_APP_API_BASE_URL=http://ecs-alb-backend-275173380.ap-south-1.elb.amazonaws.com 
